@@ -1,0 +1,21 @@
+{
+  "name": "memory-game-reactjs",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://namthit98.github.io/memory-game-reactjs/",
+  "dependencies": {
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-scripts": "1.1.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "deploy": "npm run build && gh-pages -d build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.2.0"
+  }
+}
